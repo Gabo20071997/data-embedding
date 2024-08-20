@@ -26,7 +26,7 @@ def get_documents(directory_path):
     return documents
 
 def generate_embeddings():
-    documents = get_documents('D:\Documentos\UFG\Tesis_capitulos\Documentos')
+    documents = get_documents('')
     
     for document in documents:
         input_text = document.replace('\n', ' ')
